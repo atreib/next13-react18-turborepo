@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  a {
+    @apply text-blue-600;
+  }
+
+  a:hover {
+    @apply text-blue-600 underline;
+  }
+
+  button {
+    @apply shadow-sm px-4 py-2 rounded;
+  }
+
+  button:hover {
+    @apply shadow;
+  }
+}

@@ -1,10 +1,10 @@
-import { Button } from "ui";
-import { Link } from "../../components/link";
+import Link from "next/link";
 
 export default function Page() {
   return (
     <div>
-      <Link href="/dashboard/people">See all people</Link>
+      <h1>Dashboard</h1>
+      <Link href="/dashboard/people">Click here to see all people</Link>
     </div>
   );
 }
